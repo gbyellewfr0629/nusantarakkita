@@ -10,7 +10,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            /* BACKGROUND DI SINI: Ganti URL dengan gambar atau warna solid, contoh: background-color: #f0f0f0; */
+            
             background: url('/foto/image\ 1.png') no-repeat center center fixed;
             background-size: cover;
             display: flex;
@@ -20,7 +20,7 @@
             margin: 0;
         }
         .signup-container {
-            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparan agar background terlihat */
+            background-color: rgba(255, 255, 255, 0.9);
             padding: 20px;
             border-radius: 9px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -64,10 +64,8 @@
 
     <script>
         document.getElementById('signupForm').addEventListener('submit', function(event) {
-            event.preventDefault(); // Mencegah submit default
-            // Di sini Anda bisa menambahkan validasi atau pengiriman data ke backend
-            // Untuk demo, langsung redirect ke halaman utama
-            window.location.href = 'index.html'; // Ganti dengan URL halaman utama Anda
+            event.preventDefault(); 
+            window.location.href = 'index.html'; 
         });
     </script>
 </body>
